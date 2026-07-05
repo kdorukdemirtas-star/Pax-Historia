@@ -1,0 +1,4300 @@
+{
+  "id": "modern-day",
+  "name": "Modern Day",
+  "description": "A present-day scenario spanning every recognized nation. Pick a country, manage its economy, military and diplomacy, and let a local AI drive world events, rival nations and your advisor.",
+  "startYear": 2026,
+  "turnLengthLabel": "month",
+  "countries": {
+    "FJI": {
+      "id": "FJI",
+      "name": "Fiji",
+      "continent": "Oceania",
+      "owner": "FJI",
+      "population": 889953,
+      "gdp": 5496,
+      "stats": {
+        "economy": 27,
+        "military": 55,
+        "stability": 75,
+        "diplomacy": 61
+      },
+      "treasury": 3314,
+      "troops": 33136,
+      "borders": [],
+      "relations": {}
+    },
+    "TZA": {
+      "id": "TZA",
+      "name": "Tanzania",
+      "continent": "Africa",
+      "owner": "TZA",
+      "population": 58005463,
+      "gdp": 63177,
+      "stats": {
+        "economy": 44,
+        "military": 38,
+        "stability": 52,
+        "diplomacy": 64
+      },
+      "treasury": 5038,
+      "troops": 50384,
+      "borders": [
+        "COD",
+        "SOM",
+        "KEN",
+        "ZMB",
+        "MWI",
+        "MOZ",
+        "BDI",
+        "UGA",
+        "RWA"
+      ],
+      "relations": {}
+    },
+    "ESH": {
+      "id": "ESH",
+      "name": "W. Sahara",
+      "continent": "Africa",
+      "owner": "ESH",
+      "population": 603253,
+      "gdp": 907,
+      "stats": {
+        "economy": 25,
+        "military": 57,
+        "stability": 56,
+        "diplomacy": 53
+      },
+      "treasury": 2743,
+      "troops": 27429,
+      "borders": [
+        "MLI",
+        "MRT",
+        "DZA",
+        "MAR"
+      ],
+      "relations": {}
+    },
+    "CAN": {
+      "id": "CAN",
+      "name": "Canada",
+      "continent": "North America",
+      "owner": "CAN",
+      "population": 37589262,
+      "gdp": 1736425,
+      "stats": {
+        "economy": 55,
+        "military": 41,
+        "stability": 57,
+        "diplomacy": 65
+      },
+      "treasury": 5789,
+      "troops": 57888,
+      "borders": [
+        "USA",
+        "GRL"
+      ],
+      "relations": {}
+    },
+    "USA": {
+      "id": "USA",
+      "name": "United States of America",
+      "continent": "North America",
+      "owner": "USA",
+      "population": 328239523,
+      "gdp": 21433226,
+      "stats": {
+        "economy": 77,
+        "military": 58,
+        "stability": 64,
+        "diplomacy": 80
+      },
+      "treasury": 7008,
+      "troops": 70084,
+      "borders": [
+        "CAN",
+        "RUS",
+        "BHS",
+        "MEX"
+      ],
+      "relations": {}
+    },
+    "KAZ": {
+      "id": "KAZ",
+      "name": "Kazakhstan",
+      "continent": "Asia",
+      "owner": "KAZ",
+      "population": 18513930,
+      "gdp": 181665,
+      "stats": {
+        "economy": 53,
+        "military": 57,
+        "stability": 64,
+        "diplomacy": 66
+      },
+      "treasury": 5016,
+      "troops": 50161,
+      "borders": [
+        "UZB",
+        "RUS",
+        "MNG",
+        "TJK",
+        "KGZ",
+        "TKM",
+        "ARM",
+        "CHN",
+        "AZE",
+        "GEO"
+      ],
+      "relations": {}
+    },
+    "UZB": {
+      "id": "UZB",
+      "name": "Uzbekistan",
+      "continent": "Asia",
+      "owner": "UZB",
+      "population": 33580650,
+      "gdp": 57921,
+      "stats": {
+        "economy": 37,
+        "military": 49,
+        "stability": 72,
+        "diplomacy": 52
+      },
+      "treasury": 4873,
+      "troops": 48734,
+      "borders": [
+        "KAZ",
+        "RUS",
+        "PAK",
+        "AFG",
+        "TJK",
+        "KGZ",
+        "TKM",
+        "IRN",
+        "CHN"
+      ],
+      "relations": {}
+    },
+    "PNG": {
+      "id": "PNG",
+      "name": "Papua New Guinea",
+      "continent": "Oceania",
+      "owner": "PNG",
+      "population": 8776109,
+      "gdp": 24829,
+      "stats": {
+        "economy": 43,
+        "military": 44,
+        "stability": 63,
+        "diplomacy": 69
+      },
+      "treasury": 4303,
+      "troops": 43030,
+      "borders": [
+        "IDN",
+        "SLB",
+        "AUS"
+      ],
+      "relations": {}
+    },
+    "IDN": {
+      "id": "IDN",
+      "name": "Indonesia",
+      "continent": "Asia",
+      "owner": "IDN",
+      "population": 270625568,
+      "gdp": 1119190,
+      "stats": {
+        "economy": 55,
+        "military": 58,
+        "stability": 78,
+        "diplomacy": 62
+      },
+      "treasury": 6189,
+      "troops": 61888,
+      "borders": [
+        "PNG",
+        "TLS",
+        "THA",
+        "AUS",
+        "MYS",
+        "BRN"
+      ],
+      "relations": {}
+    },
+    "ARG": {
+      "id": "ARG",
+      "name": "Argentina",
+      "continent": "South America",
+      "owner": "ARG",
+      "population": 44938712,
+      "gdp": 445445,
+      "stats": {
+        "economy": 52,
+        "military": 34,
+        "stability": 58,
+        "diplomacy": 69
+      },
+      "treasury": 5481,
+      "troops": 54808,
+      "borders": [
+        "CHL",
+        "FLK",
+        "URY",
+        "BRA",
+        "BOL",
+        "PRY"
+      ],
+      "relations": {}
+    },
+    "CHL": {
+      "id": "CHL",
+      "name": "Chile",
+      "continent": "South America",
+      "owner": "CHL",
+      "population": 18952038,
+      "gdp": 282318,
+      "stats": {
+        "economy": 46,
+        "military": 61,
+        "stability": 63,
+        "diplomacy": 64
+      },
+      "treasury": 5137,
+      "troops": 51370,
+      "borders": [
+        "ARG",
+        "BRA",
+        "BOL",
+        "PER"
+      ],
+      "relations": {}
+    },
+    "COD": {
+      "id": "COD",
+      "name": "Dem. Rep. Congo",
+      "continent": "Africa",
+      "owner": "COD",
+      "population": 86790567,
+      "gdp": 50400,
+      "stats": {
+        "economy": 38,
+        "military": 59,
+        "stability": 66,
+        "diplomacy": 56
+      },
+      "treasury": 5085,
+      "troops": 50845,
+      "borders": [
+        "TZA",
+        "NGA",
+        "CMR",
+        "CAF",
+        "COG",
+        "GAB",
+        "ZMB",
+        "MOZ",
+        "AGO",
+        "BDI",
+        "UGA",
+        "RWA",
+        "SSD"
+      ],
+      "relations": {}
+    },
+    "SOM": {
+      "id": "SOM",
+      "name": "Somalia",
+      "continent": "Africa",
+      "owner": "SOM",
+      "population": 10192317,
+      "gdp": 4719,
+      "stats": {
+        "economy": 25,
+        "military": 38,
+        "stability": 73,
+        "diplomacy": 71
+      },
+      "treasury": 3909,
+      "troops": 39093,
+      "borders": [
+        "TZA",
+        "KEN",
+        "ERI",
+        "YEM",
+        "ETH",
+        "DJI",
+        "SOL"
+      ],
+      "relations": {}
+    },
+    "KEN": {
+      "id": "KEN",
+      "name": "Kenya",
+      "continent": "Africa",
+      "owner": "KEN",
+      "population": 52573973,
+      "gdp": 95503,
+      "stats": {
+        "economy": 40,
+        "military": 64,
+        "stability": 55,
+        "diplomacy": 71
+      },
+      "treasury": 5120,
+      "troops": 51205,
+      "borders": [
+        "TZA",
+        "SOM",
+        "ETH",
+        "UGA",
+        "SSD"
+      ],
+      "relations": {}
+    },
+    "SDN": {
+      "id": "SDN",
+      "name": "Sudan",
+      "continent": "Africa",
+      "owner": "SDN",
+      "population": 42813238,
+      "gdp": 30513,
+      "stats": {
+        "economy": 44,
+        "military": 44,
+        "stability": 79,
+        "diplomacy": 54
+      },
+      "treasury": 4770,
+      "troops": 47696,
+      "borders": [
+        "TCD",
+        "CAF",
+        "ERI",
+        "SAU",
+        "EGY",
+        "LBY",
+        "ETH",
+        "SSD"
+      ],
+      "relations": {}
+    },
+    "TCD": {
+      "id": "TCD",
+      "name": "Chad",
+      "continent": "Africa",
+      "owner": "TCD",
+      "population": 15946876,
+      "gdp": 11314,
+      "stats": {
+        "economy": 32,
+        "military": 62,
+        "stability": 77,
+        "diplomacy": 55
+      },
+      "treasury": 4254,
+      "troops": 42538,
+      "borders": [
+        "SDN",
+        "NER",
+        "NGA",
+        "CMR",
+        "CAF",
+        "LBY",
+        "SSD"
+      ],
+      "relations": {}
+    },
+    "HTI": {
+      "id": "HTI",
+      "name": "Haiti",
+      "continent": "North America",
+      "owner": "HTI",
+      "population": 11263077,
+      "gdp": 14332,
+      "stats": {
+        "economy": 31,
+        "military": 33,
+        "stability": 54,
+        "diplomacy": 80
+      },
+      "treasury": 4225,
+      "troops": 42248,
+      "borders": [
+        "DOM",
+        "CUB"
+      ],
+      "relations": {}
+    },
+    "DOM": {
+      "id": "DOM",
+      "name": "Dominican Rep.",
+      "continent": "North America",
+      "owner": "DOM",
+      "population": 10738958,
+      "gdp": 88941,
+      "stats": {
+        "economy": 45,
+        "military": 58,
+        "stability": 71,
+        "diplomacy": 54
+      },
+      "treasury": 4688,
+      "troops": 46880,
+      "borders": [
+        "HTI"
+      ],
+      "relations": {}
+    },
+    "RUS": {
+      "id": "RUS",
+      "name": "Russia",
+      "continent": "Europe",
+      "owner": "RUS",
+      "population": 144373535,
+      "gdp": 1699876,
+      "stats": {
+        "economy": 63,
+        "military": 48,
+        "stability": 57,
+        "diplomacy": 57
+      },
+      "treasury": 6134,
+      "troops": 61339,
+      "borders": [
+        "USA",
+        "KAZ",
+        "UZB",
+        "NOR",
+        "PRK",
+        "MNG",
+        "TJK",
+        "KGZ",
+        "TKM",
+        "ARM",
+        "SWE",
+        "BLR",
+        "UKR",
+        "POL",
+        "MDA",
+        "ROU",
+        "LTU",
+        "LVA",
+        "EST",
+        "BGR",
+        "GRC",
+        "TUR",
+        "CHN",
+        "AZE",
+        "GEO",
+        "FIN",
+        "JPN"
+      ],
+      "relations": {}
+    },
+    "BHS": {
+      "id": "BHS",
+      "name": "Bahamas",
+      "continent": "North America",
+      "owner": "BHS",
+      "population": 389482,
+      "gdp": 13578,
+      "stats": {
+        "economy": 37,
+        "military": 39,
+        "stability": 57,
+        "diplomacy": 55
+      },
+      "treasury": 3334,
+      "troops": 33340,
+      "borders": [
+        "USA",
+        "CUB"
+      ],
+      "relations": {}
+    },
+    "FLK": {
+      "id": "FLK",
+      "name": "Falkland Is.",
+      "continent": "South America",
+      "owner": "FLK",
+      "population": 3398,
+      "gdp": 282,
+      "stats": {
+        "economy": 12,
+        "military": 47,
+        "stability": 70,
+        "diplomacy": 72
+      },
+      "treasury": 1970,
+      "troops": 19701,
+      "borders": [
+        "ARG"
+      ],
+      "relations": {}
+    },
+    "NOR": {
+      "id": "NOR",
+      "name": "Norway",
+      "continent": "Europe",
+      "owner": "NOR",
+      "population": 5347896,
+      "gdp": 403336,
+      "stats": {
+        "economy": 50,
+        "military": 63,
+        "stability": 55,
+        "diplomacy": 51
+      },
+      "treasury": 4900,
+      "troops": 49003,
+      "borders": [
+        "RUS",
+        "SWE",
+        "LVA",
+        "EST",
+        "DNK",
+        "FIN"
+      ],
+      "relations": {}
+    },
+    "GRL": {
+      "id": "GRL",
+      "name": "Greenland",
+      "continent": "North America",
+      "owner": "GRL",
+      "population": 56225,
+      "gdp": 3051,
+      "stats": {
+        "economy": 29,
+        "military": 52,
+        "stability": 71,
+        "diplomacy": 57
+      },
+      "treasury": 2591,
+      "troops": 25907,
+      "borders": [
+        "CAN",
+        "ISL"
+      ],
+      "relations": {}
+    },
+    "ATF": {
+      "id": "ATF",
+      "name": "Fr. S. Antarctic Lands",
+      "continent": "Seven seas (open ocean)",
+      "owner": "ATF",
+      "population": 140,
+      "gdp": 16,
+      "stats": {
+        "economy": 5,
+        "military": 55,
+        "stability": 51,
+        "diplomacy": 76
+      },
+      "treasury": 1222,
+      "troops": 12225,
+      "borders": [],
+      "relations": {}
+    },
+    "TLS": {
+      "id": "TLS",
+      "name": "Timor-Leste",
+      "continent": "Asia",
+      "owner": "TLS",
+      "population": 1293119,
+      "gdp": 2017,
+      "stats": {
+        "economy": 24,
+        "military": 49,
+        "stability": 56,
+        "diplomacy": 52
+      },
+      "treasury": 3150,
+      "troops": 31498,
+      "borders": [
+        "IDN"
+      ],
+      "relations": {}
+    },
+    "ZAF": {
+      "id": "ZAF",
+      "name": "South Africa",
+      "continent": "Africa",
+      "owner": "ZAF",
+      "population": 58558270,
+      "gdp": 351431,
+      "stats": {
+        "economy": 52,
+        "military": 45,
+        "stability": 76,
+        "diplomacy": 62
+      },
+      "treasury": 5488,
+      "troops": 54881,
+      "borders": [
+        "LSO",
+        "ZWE",
+        "BWA",
+        "NAM",
+        "MOZ",
+        "SWZ"
+      ],
+      "relations": {}
+    },
+    "LSO": {
+      "id": "LSO",
+      "name": "Lesotho",
+      "continent": "Africa",
+      "owner": "LSO",
+      "population": 2125268,
+      "gdp": 2376,
+      "stats": {
+        "economy": 26,
+        "military": 49,
+        "stability": 51,
+        "diplomacy": 61
+      },
+      "treasury": 3322,
+      "troops": 33220,
+      "borders": [
+        "ZAF"
+      ],
+      "relations": {}
+    },
+    "MEX": {
+      "id": "MEX",
+      "name": "Mexico",
+      "continent": "North America",
+      "owner": "MEX",
+      "population": 127575529,
+      "gdp": 1268870,
+      "stats": {
+        "economy": 61,
+        "military": 33,
+        "stability": 51,
+        "diplomacy": 56
+      },
+      "treasury": 6026,
+      "troops": 60255,
+      "borders": [
+        "USA",
+        "NIC",
+        "HND",
+        "SLV",
+        "GTM",
+        "BLZ"
+      ],
+      "relations": {}
+    },
+    "URY": {
+      "id": "URY",
+      "name": "Uruguay",
+      "continent": "South America",
+      "owner": "URY",
+      "population": 3461734,
+      "gdp": 56045,
+      "stats": {
+        "economy": 46,
+        "military": 32,
+        "stability": 70,
+        "diplomacy": 72
+      },
+      "treasury": 4273,
+      "troops": 42727,
+      "borders": [
+        "ARG",
+        "BRA"
+      ],
+      "relations": {}
+    },
+    "BRA": {
+      "id": "BRA",
+      "name": "Brazil",
+      "continent": "South America",
+      "owner": "BRA",
+      "population": 211049527,
+      "gdp": 1839758,
+      "stats": {
+        "economy": 63,
+        "military": 59,
+        "stability": 55,
+        "diplomacy": 79
+      },
+      "treasury": 6253,
+      "troops": 62535,
+      "borders": [
+        "ARG",
+        "CHL",
+        "URY",
+        "BOL",
+        "PER",
+        "COL",
+        "VEN",
+        "GUY",
+        "SUR",
+        "FRA",
+        "PRY"
+      ],
+      "relations": {}
+    },
+    "BOL": {
+      "id": "BOL",
+      "name": "Bolivia",
+      "continent": "South America",
+      "owner": "BOL",
+      "population": 11513100,
+      "gdp": 40895,
+      "stats": {
+        "economy": 43,
+        "military": 41,
+        "stability": 50,
+        "diplomacy": 78
+      },
+      "treasury": 4504,
+      "troops": 45037,
+      "borders": [
+        "ARG",
+        "CHL",
+        "BRA",
+        "PER",
+        "PRY"
+      ],
+      "relations": {}
+    },
+    "PER": {
+      "id": "PER",
+      "name": "Peru",
+      "continent": "South America",
+      "owner": "PER",
+      "population": 32510453,
+      "gdp": 226848,
+      "stats": {
+        "economy": 53,
+        "military": 31,
+        "stability": 78,
+        "diplomacy": 71
+      },
+      "treasury": 5221,
+      "troops": 52207,
+      "borders": [
+        "CHL",
+        "BRA",
+        "BOL",
+        "COL",
+        "ECU"
+      ],
+      "relations": {}
+    },
+    "COL": {
+      "id": "COL",
+      "name": "Colombia",
+      "continent": "South America",
+      "owner": "COL",
+      "population": 50339443,
+      "gdp": 323615,
+      "stats": {
+        "economy": 48,
+        "military": 48,
+        "stability": 51,
+        "diplomacy": 65
+      },
+      "treasury": 5427,
+      "troops": 54272,
+      "borders": [
+        "BRA",
+        "PER",
+        "PAN",
+        "VEN",
+        "ECU"
+      ],
+      "relations": {}
+    },
+    "PAN": {
+      "id": "PAN",
+      "name": "Panama",
+      "continent": "North America",
+      "owner": "PAN",
+      "population": 4246439,
+      "gdp": 66800,
+      "stats": {
+        "economy": 46,
+        "military": 47,
+        "stability": 59,
+        "diplomacy": 79
+      },
+      "treasury": 4372,
+      "troops": 43717,
+      "borders": [
+        "COL",
+        "CRI"
+      ],
+      "relations": {}
+    },
+    "CRI": {
+      "id": "CRI",
+      "name": "Costa Rica",
+      "continent": "North America",
+      "owner": "CRI",
+      "population": 5047561,
+      "gdp": 61801,
+      "stats": {
+        "economy": 40,
+        "military": 54,
+        "stability": 69,
+        "diplomacy": 75
+      },
+      "treasury": 4396,
+      "troops": 43964,
+      "borders": [
+        "PAN",
+        "NIC"
+      ],
+      "relations": {}
+    },
+    "NIC": {
+      "id": "NIC",
+      "name": "Nicaragua",
+      "continent": "North America",
+      "owner": "NIC",
+      "population": 6545502,
+      "gdp": 12520,
+      "stats": {
+        "economy": 31,
+        "military": 54,
+        "stability": 67,
+        "diplomacy": 68
+      },
+      "treasury": 4048,
+      "troops": 40481,
+      "borders": [
+        "MEX",
+        "CRI",
+        "HND",
+        "SLV",
+        "GTM"
+      ],
+      "relations": {}
+    },
+    "HND": {
+      "id": "HND",
+      "name": "Honduras",
+      "continent": "North America",
+      "owner": "HND",
+      "population": 9746117,
+      "gdp": 25095,
+      "stats": {
+        "economy": 33,
+        "military": 60,
+        "stability": 60,
+        "diplomacy": 78
+      },
+      "treasury": 4333,
+      "troops": 43331,
+      "borders": [
+        "MEX",
+        "NIC",
+        "SLV",
+        "GTM",
+        "BLZ"
+      ],
+      "relations": {}
+    },
+    "SLV": {
+      "id": "SLV",
+      "name": "El Salvador",
+      "continent": "North America",
+      "owner": "SLV",
+      "population": 6453553,
+      "gdp": 27022,
+      "stats": {
+        "economy": 34,
+        "military": 53,
+        "stability": 58,
+        "diplomacy": 68
+      },
+      "treasury": 4245,
+      "troops": 42449,
+      "borders": [
+        "MEX",
+        "NIC",
+        "HND",
+        "GTM"
+      ],
+      "relations": {}
+    },
+    "GTM": {
+      "id": "GTM",
+      "name": "Guatemala",
+      "continent": "North America",
+      "owner": "GTM",
+      "population": 16604026,
+      "gdp": 76710,
+      "stats": {
+        "economy": 46,
+        "military": 41,
+        "stability": 76,
+        "diplomacy": 67
+      },
+      "treasury": 4763,
+      "troops": 47630,
+      "borders": [
+        "MEX",
+        "NIC",
+        "HND",
+        "SLV",
+        "BLZ"
+      ],
+      "relations": {}
+    },
+    "BLZ": {
+      "id": "BLZ",
+      "name": "Belize",
+      "continent": "North America",
+      "owner": "BLZ",
+      "population": 390353,
+      "gdp": 1879,
+      "stats": {
+        "economy": 27,
+        "military": 35,
+        "stability": 78,
+        "diplomacy": 50
+      },
+      "treasury": 2819,
+      "troops": 28192,
+      "borders": [
+        "MEX",
+        "HND",
+        "GTM"
+      ],
+      "relations": {}
+    },
+    "VEN": {
+      "id": "VEN",
+      "name": "Venezuela",
+      "continent": "South America",
+      "owner": "VEN",
+      "population": 28515829,
+      "gdp": 482359,
+      "stats": {
+        "economy": 49,
+        "military": 57,
+        "stability": 57,
+        "diplomacy": 80
+      },
+      "treasury": 5383,
+      "troops": 53831,
+      "borders": [
+        "BRA",
+        "COL",
+        "GUY",
+        "TTO"
+      ],
+      "relations": {}
+    },
+    "GUY": {
+      "id": "GUY",
+      "name": "Guyana",
+      "continent": "South America",
+      "owner": "GUY",
+      "population": 782766,
+      "gdp": 5173,
+      "stats": {
+        "economy": 32,
+        "military": 37,
+        "stability": 59,
+        "diplomacy": 55
+      },
+      "treasury": 3264,
+      "troops": 32644,
+      "borders": [
+        "BRA",
+        "VEN",
+        "SUR"
+      ],
+      "relations": {}
+    },
+    "SUR": {
+      "id": "SUR",
+      "name": "Suriname",
+      "continent": "South America",
+      "owner": "SUR",
+      "population": 581363,
+      "gdp": 3697,
+      "stats": {
+        "economy": 25,
+        "military": 51,
+        "stability": 67,
+        "diplomacy": 73
+      },
+      "treasury": 3099,
+      "troops": 30994,
+      "borders": [
+        "BRA",
+        "GUY",
+        "FRA"
+      ],
+      "relations": {}
+    },
+    "FRA": {
+      "id": "FRA",
+      "name": "France",
+      "continent": "Europe",
+      "owner": "FRA",
+      "population": 67059887,
+      "gdp": 2715518,
+      "stats": {
+        "economy": 60,
+        "military": 45,
+        "stability": 55,
+        "diplomacy": 58
+      },
+      "treasury": 6056,
+      "troops": 60562,
+      "borders": [
+        "BRA",
+        "SUR",
+        "DEU",
+        "CHE",
+        "LUX",
+        "BEL",
+        "NLD",
+        "ESP",
+        "ITA",
+        "GBR"
+      ],
+      "relations": {}
+    },
+    "ECU": {
+      "id": "ECU",
+      "name": "Ecuador",
+      "continent": "South America",
+      "owner": "ECU",
+      "population": 17373662,
+      "gdp": 107435,
+      "stats": {
+        "economy": 48,
+        "military": 64,
+        "stability": 64,
+        "diplomacy": 56
+      },
+      "treasury": 4863,
+      "troops": 48626,
+      "borders": [
+        "PER",
+        "COL"
+      ],
+      "relations": {}
+    },
+    "PRI": {
+      "id": "PRI",
+      "name": "Puerto Rico",
+      "continent": "North America",
+      "owner": "PRI",
+      "population": 3193694,
+      "gdp": 104988,
+      "stats": {
+        "economy": 41,
+        "military": 61,
+        "stability": 71,
+        "diplomacy": 59
+      },
+      "treasury": 4415,
+      "troops": 44153,
+      "borders": [],
+      "relations": {}
+    },
+    "JAM": {
+      "id": "JAM",
+      "name": "Jamaica",
+      "continent": "North America",
+      "owner": "JAM",
+      "population": 2948279,
+      "gdp": 16458,
+      "stats": {
+        "economy": 37,
+        "military": 44,
+        "stability": 67,
+        "diplomacy": 65
+      },
+      "treasury": 3912,
+      "troops": 39116,
+      "borders": [],
+      "relations": {}
+    },
+    "CUB": {
+      "id": "CUB",
+      "name": "Cuba",
+      "continent": "North America",
+      "owner": "CUB",
+      "population": 11333483,
+      "gdp": 100023,
+      "stats": {
+        "economy": 42,
+        "military": 47,
+        "stability": 66,
+        "diplomacy": 51
+      },
+      "treasury": 4733,
+      "troops": 47327,
+      "borders": [
+        "HTI",
+        "BHS"
+      ],
+      "relations": {}
+    },
+    "ZWE": {
+      "id": "ZWE",
+      "name": "Zimbabwe",
+      "continent": "Africa",
+      "owner": "ZWE",
+      "population": 14645468,
+      "gdp": 21440,
+      "stats": {
+        "economy": 40,
+        "military": 35,
+        "stability": 54,
+        "diplomacy": 68
+      },
+      "treasury": 4398,
+      "troops": 43982,
+      "borders": [
+        "ZAF",
+        "BWA",
+        "NAM",
+        "ZMB",
+        "MWI",
+        "MOZ"
+      ],
+      "relations": {}
+    },
+    "BWA": {
+      "id": "BWA",
+      "name": "Botswana",
+      "continent": "Africa",
+      "owner": "BWA",
+      "population": 2303697,
+      "gdp": 18340,
+      "stats": {
+        "economy": 40,
+        "military": 61,
+        "stability": 59,
+        "diplomacy": 71
+      },
+      "treasury": 3875,
+      "troops": 38755,
+      "borders": [
+        "ZAF",
+        "ZWE",
+        "NAM",
+        "ZMB",
+        "AGO"
+      ],
+      "relations": {}
+    },
+    "NAM": {
+      "id": "NAM",
+      "name": "Namibia",
+      "continent": "Africa",
+      "owner": "NAM",
+      "population": 2494530,
+      "gdp": 12366,
+      "stats": {
+        "economy": 30,
+        "military": 30,
+        "stability": 68,
+        "diplomacy": 73
+      },
+      "treasury": 3794,
+      "troops": 37935,
+      "borders": [
+        "ZAF",
+        "ZWE",
+        "BWA",
+        "ZMB",
+        "AGO"
+      ],
+      "relations": {}
+    },
+    "SEN": {
+      "id": "SEN",
+      "name": "Senegal",
+      "continent": "Africa",
+      "owner": "SEN",
+      "population": 16296364,
+      "gdp": 23578,
+      "stats": {
+        "economy": 33,
+        "military": 37,
+        "stability": 56,
+        "diplomacy": 58
+      },
+      "treasury": 4451,
+      "troops": 44508,
+      "borders": [
+        "MLI",
+        "MRT",
+        "GIN",
+        "GNB",
+        "GMB"
+      ],
+      "relations": {}
+    },
+    "MLI": {
+      "id": "MLI",
+      "name": "Mali",
+      "continent": "Africa",
+      "owner": "MLI",
+      "population": 19658031,
+      "gdp": 17279,
+      "stats": {
+        "economy": 39,
+        "military": 46,
+        "stability": 60,
+        "diplomacy": 70
+      },
+      "treasury": 4419,
+      "troops": 44186,
+      "borders": [
+        "ESH",
+        "SEN",
+        "MRT",
+        "BEN",
+        "NER",
+        "NGA",
+        "TGO",
+        "GHA",
+        "CIV",
+        "GIN",
+        "SLE",
+        "BFA",
+        "DZA",
+        "MAR"
+      ],
+      "relations": {}
+    },
+    "MRT": {
+      "id": "MRT",
+      "name": "Mauritania",
+      "continent": "Africa",
+      "owner": "MRT",
+      "population": 4525696,
+      "gdp": 7600,
+      "stats": {
+        "economy": 36,
+        "military": 41,
+        "stability": 57,
+        "diplomacy": 79
+      },
+      "treasury": 3822,
+      "troops": 38219,
+      "borders": [
+        "ESH",
+        "SEN",
+        "MLI",
+        "BFA",
+        "DZA",
+        "MAR"
+      ],
+      "relations": {}
+    },
+    "BEN": {
+      "id": "BEN",
+      "name": "Benin",
+      "continent": "Africa",
+      "owner": "BEN",
+      "population": 11801151,
+      "gdp": 14390,
+      "stats": {
+        "economy": 37,
+        "military": 44,
+        "stability": 54,
+        "diplomacy": 66
+      },
+      "treasury": 4238,
+      "troops": 42380,
+      "borders": [
+        "MLI",
+        "NER",
+        "NGA",
+        "TGO",
+        "GHA",
+        "BFA"
+      ],
+      "relations": {}
+    },
+    "NER": {
+      "id": "NER",
+      "name": "Niger",
+      "continent": "Africa",
+      "owner": "NER",
+      "population": 23310715,
+      "gdp": 12911,
+      "stats": {
+        "economy": 31,
+        "military": 58,
+        "stability": 78,
+        "diplomacy": 67
+      },
+      "treasury": 4387,
+      "troops": 43871,
+      "borders": [
+        "TCD",
+        "MLI",
+        "BEN",
+        "NGA",
+        "CMR",
+        "TGO",
+        "GHA",
+        "BFA",
+        "CAF",
+        "DZA",
+        "LBY"
+      ],
+      "relations": {}
+    },
+    "NGA": {
+      "id": "NGA",
+      "name": "Nigeria",
+      "continent": "Africa",
+      "owner": "NGA",
+      "population": 200963599,
+      "gdp": 448120,
+      "stats": {
+        "economy": 49,
+        "military": 61,
+        "stability": 72,
+        "diplomacy": 57
+      },
+      "treasury": 5873,
+      "troops": 58727,
+      "borders": [
+        "COD",
+        "TCD",
+        "MLI",
+        "BEN",
+        "NER",
+        "CMR",
+        "BFA",
+        "CAF",
+        "COG"
+      ],
+      "relations": {}
+    },
+    "CMR": {
+      "id": "CMR",
+      "name": "Cameroon",
+      "continent": "Africa",
+      "owner": "CMR",
+      "population": 25876380,
+      "gdp": 39007,
+      "stats": {
+        "economy": 37,
+        "military": 45,
+        "stability": 70,
+        "diplomacy": 63
+      },
+      "treasury": 4702,
+      "troops": 47024,
+      "borders": [
+        "COD",
+        "TCD",
+        "NER",
+        "NGA",
+        "CAF",
+        "COG",
+        "GAB",
+        "GNQ"
+      ],
+      "relations": {}
+    },
+    "TGO": {
+      "id": "TGO",
+      "name": "Togo",
+      "continent": "Africa",
+      "owner": "TGO",
+      "population": 8082366,
+      "gdp": 5490,
+      "stats": {
+        "economy": 29,
+        "military": 32,
+        "stability": 60,
+        "diplomacy": 55
+      },
+      "treasury": 3888,
+      "troops": 38883,
+      "borders": [
+        "MLI",
+        "BEN",
+        "NER",
+        "GHA",
+        "BFA"
+      ],
+      "relations": {}
+    },
+    "GHA": {
+      "id": "GHA",
+      "name": "Ghana",
+      "continent": "Africa",
+      "owner": "GHA",
+      "population": 30417856,
+      "gdp": 66983,
+      "stats": {
+        "economy": 44,
+        "military": 47,
+        "stability": 78,
+        "diplomacy": 61
+      },
+      "treasury": 4885,
+      "troops": 48855,
+      "borders": [
+        "MLI",
+        "BEN",
+        "NER",
+        "TGO",
+        "CIV",
+        "BFA"
+      ],
+      "relations": {}
+    },
+    "CIV": {
+      "id": "CIV",
+      "name": "Côte d'Ivoire",
+      "continent": "Africa",
+      "owner": "CIV",
+      "population": 25716544,
+      "gdp": 58539,
+      "stats": {
+        "economy": 38,
+        "military": 49,
+        "stability": 65,
+        "diplomacy": 80
+      },
+      "treasury": 4807,
+      "troops": 48066,
+      "borders": [
+        "MLI",
+        "GHA",
+        "GIN",
+        "LBR",
+        "BFA"
+      ],
+      "relations": {}
+    },
+    "GIN": {
+      "id": "GIN",
+      "name": "Guinea",
+      "continent": "Africa",
+      "owner": "GIN",
+      "population": 12771246,
+      "gdp": 12296,
+      "stats": {
+        "economy": 35,
+        "military": 47,
+        "stability": 52,
+        "diplomacy": 80
+      },
+      "treasury": 4218,
+      "troops": 42176,
+      "borders": [
+        "SEN",
+        "MLI",
+        "CIV",
+        "GNB",
+        "LBR",
+        "SLE",
+        "GMB"
+      ],
+      "relations": {}
+    },
+    "GNB": {
+      "id": "GNB",
+      "name": "Guinea-Bissau",
+      "continent": "Africa",
+      "owner": "GNB",
+      "population": 1920922,
+      "gdp": 1339,
+      "stats": {
+        "economy": 24,
+        "military": 46,
+        "stability": 79,
+        "diplomacy": 58
+      },
+      "treasury": 3146,
+      "troops": 31462,
+      "borders": [
+        "SEN",
+        "GIN",
+        "GMB"
+      ],
+      "relations": {}
+    },
+    "LBR": {
+      "id": "LBR",
+      "name": "Liberia",
+      "continent": "Africa",
+      "owner": "LBR",
+      "population": 4937374,
+      "gdp": 3070,
+      "stats": {
+        "economy": 26,
+        "military": 67,
+        "stability": 57,
+        "diplomacy": 79
+      },
+      "treasury": 3608,
+      "troops": 36084,
+      "borders": [
+        "CIV",
+        "GIN",
+        "SLE"
+      ],
+      "relations": {}
+    },
+    "SLE": {
+      "id": "SLE",
+      "name": "Sierra Leone",
+      "continent": "Africa",
+      "owner": "SLE",
+      "population": 7813215,
+      "gdp": 4121,
+      "stats": {
+        "economy": 24,
+        "military": 32,
+        "stability": 69,
+        "diplomacy": 79
+      },
+      "treasury": 3805,
+      "troops": 38047,
+      "borders": [
+        "MLI",
+        "GIN",
+        "LBR"
+      ],
+      "relations": {}
+    },
+    "BFA": {
+      "id": "BFA",
+      "name": "Burkina Faso",
+      "continent": "Africa",
+      "owner": "BFA",
+      "population": 20321378,
+      "gdp": 15990,
+      "stats": {
+        "economy": 37,
+        "military": 69,
+        "stability": 63,
+        "diplomacy": 56
+      },
+      "treasury": 4407,
+      "troops": 44071,
+      "borders": [
+        "MLI",
+        "MRT",
+        "BEN",
+        "NER",
+        "NGA",
+        "TGO",
+        "GHA",
+        "CIV"
+      ],
+      "relations": {}
+    },
+    "CAF": {
+      "id": "CAF",
+      "name": "Central African Rep.",
+      "continent": "Africa",
+      "owner": "CAF",
+      "population": 4745185,
+      "gdp": 2220,
+      "stats": {
+        "economy": 30,
+        "military": 52,
+        "stability": 72,
+        "diplomacy": 57
+      },
+      "treasury": 3514,
+      "troops": 35136,
+      "borders": [
+        "COD",
+        "SDN",
+        "TCD",
+        "NER",
+        "NGA",
+        "CMR",
+        "COG",
+        "GAB",
+        "SSD"
+      ],
+      "relations": {}
+    },
+    "COG": {
+      "id": "COG",
+      "name": "Congo",
+      "continent": "Africa",
+      "owner": "COG",
+      "population": 5380508,
+      "gdp": 12267,
+      "stats": {
+        "economy": 31,
+        "military": 70,
+        "stability": 68,
+        "diplomacy": 60
+      },
+      "treasury": 3992,
+      "troops": 39917,
+      "borders": [
+        "COD",
+        "NGA",
+        "CMR",
+        "CAF",
+        "GAB",
+        "GNQ",
+        "AGO"
+      ],
+      "relations": {}
+    },
+    "GAB": {
+      "id": "GAB",
+      "name": "Gabon",
+      "continent": "Africa",
+      "owner": "GAB",
+      "population": 2172579,
+      "gdp": 16874,
+      "stats": {
+        "economy": 36,
+        "military": 64,
+        "stability": 51,
+        "diplomacy": 61
+      },
+      "treasury": 3839,
+      "troops": 38385,
+      "borders": [
+        "COD",
+        "CMR",
+        "CAF",
+        "COG",
+        "GNQ",
+        "AGO"
+      ],
+      "relations": {}
+    },
+    "GNQ": {
+      "id": "GNQ",
+      "name": "Eq. Guinea",
+      "continent": "Africa",
+      "owner": "GNQ",
+      "population": 1355986,
+      "gdp": 11026,
+      "stats": {
+        "economy": 35,
+        "military": 60,
+        "stability": 57,
+        "diplomacy": 75
+      },
+      "treasury": 3605,
+      "troops": 36048,
+      "borders": [
+        "CMR",
+        "COG",
+        "GAB"
+      ],
+      "relations": {}
+    },
+    "ZMB": {
+      "id": "ZMB",
+      "name": "Zambia",
+      "continent": "Africa",
+      "owner": "ZMB",
+      "population": 17861030,
+      "gdp": 23309,
+      "stats": {
+        "economy": 39,
+        "military": 60,
+        "stability": 75,
+        "diplomacy": 50
+      },
+      "treasury": 4472,
+      "troops": 44717,
+      "borders": [
+        "TZA",
+        "COD",
+        "ZWE",
+        "BWA",
+        "NAM",
+        "MWI",
+        "MOZ",
+        "AGO"
+      ],
+      "relations": {}
+    },
+    "MWI": {
+      "id": "MWI",
+      "name": "Malawi",
+      "continent": "Africa",
+      "owner": "MWI",
+      "population": 18628747,
+      "gdp": 7666,
+      "stats": {
+        "economy": 36,
+        "military": 43,
+        "stability": 75,
+        "diplomacy": 59
+      },
+      "treasury": 4193,
+      "troops": 41929,
+      "borders": [
+        "TZA",
+        "ZWE",
+        "ZMB",
+        "MOZ"
+      ],
+      "relations": {}
+    },
+    "MOZ": {
+      "id": "MOZ",
+      "name": "Mozambique",
+      "continent": "Africa",
+      "owner": "MOZ",
+      "population": 30366036,
+      "gdp": 15291,
+      "stats": {
+        "economy": 39,
+        "military": 45,
+        "stability": 70,
+        "diplomacy": 73
+      },
+      "treasury": 4500,
+      "troops": 45001,
+      "borders": [
+        "TZA",
+        "COD",
+        "ZAF",
+        "ZWE",
+        "ZMB",
+        "MWI",
+        "SWZ"
+      ],
+      "relations": {}
+    },
+    "SWZ": {
+      "id": "SWZ",
+      "name": "eSwatini",
+      "continent": "Africa",
+      "owner": "SWZ",
+      "population": 1148130,
+      "gdp": 4471,
+      "stats": {
+        "economy": 26,
+        "military": 65,
+        "stability": 65,
+        "diplomacy": 61
+      },
+      "treasury": 3326,
+      "troops": 33262,
+      "borders": [
+        "ZAF",
+        "MOZ"
+      ],
+      "relations": {}
+    },
+    "AGO": {
+      "id": "AGO",
+      "name": "Angola",
+      "continent": "Africa",
+      "owner": "AGO",
+      "population": 31825295,
+      "gdp": 88815,
+      "stats": {
+        "economy": 43,
+        "military": 66,
+        "stability": 58,
+        "diplomacy": 59
+      },
+      "treasury": 4971,
+      "troops": 49708,
+      "borders": [
+        "COD",
+        "BWA",
+        "NAM",
+        "COG",
+        "GAB",
+        "ZMB"
+      ],
+      "relations": {}
+    },
+    "BDI": {
+      "id": "BDI",
+      "name": "Burundi",
+      "continent": "Africa",
+      "owner": "BDI",
+      "population": 11530580,
+      "gdp": 3012,
+      "stats": {
+        "economy": 28,
+        "military": 33,
+        "stability": 64,
+        "diplomacy": 56
+      },
+      "treasury": 3824,
+      "troops": 38244,
+      "borders": [
+        "TZA",
+        "COD",
+        "RWA"
+      ],
+      "relations": {}
+    },
+    "ISR": {
+      "id": "ISR",
+      "name": "Israel",
+      "continent": "Asia",
+      "owner": "ISR",
+      "population": 9053300,
+      "gdp": 394652,
+      "stats": {
+        "economy": 52,
+        "military": 40,
+        "stability": 52,
+        "diplomacy": 73
+      },
+      "treasury": 5032,
+      "troops": 50318,
+      "borders": [
+        "LBN",
+        "PSE",
+        "JOR",
+        "SYR",
+        "SAU",
+        "EGY"
+      ],
+      "relations": {}
+    },
+    "LBN": {
+      "id": "LBN",
+      "name": "Lebanon",
+      "continent": "Asia",
+      "owner": "LBN",
+      "population": 6855713,
+      "gdp": 51991,
+      "stats": {
+        "economy": 40,
+        "military": 53,
+        "stability": 65,
+        "diplomacy": 75
+      },
+      "treasury": 4431,
+      "troops": 44312,
+      "borders": [
+        "ISR",
+        "PSE",
+        "JOR",
+        "SYR",
+        "CYN"
+      ],
+      "relations": {}
+    },
+    "MDG": {
+      "id": "MDG",
+      "name": "Madagascar",
+      "continent": "Africa",
+      "owner": "MDG",
+      "population": 26969307,
+      "gdp": 14114,
+      "stats": {
+        "economy": 37,
+        "military": 59,
+        "stability": 55,
+        "diplomacy": 63
+      },
+      "treasury": 4448,
+      "troops": 44483,
+      "borders": [],
+      "relations": {}
+    },
+    "PSE": {
+      "id": "PSE",
+      "name": "Palestine",
+      "continent": "Asia",
+      "owner": "PSE",
+      "population": 4685306,
+      "gdp": 16276,
+      "stats": {
+        "economy": 31,
+        "military": 39,
+        "stability": 56,
+        "diplomacy": 58
+      },
+      "treasury": 4029,
+      "troops": 40294,
+      "borders": [
+        "ISR",
+        "LBN",
+        "JOR",
+        "SYR",
+        "SAU",
+        "EGY"
+      ],
+      "relations": {}
+    },
+    "GMB": {
+      "id": "GMB",
+      "name": "Gambia",
+      "continent": "Africa",
+      "owner": "GMB",
+      "population": 2347706,
+      "gdp": 1826,
+      "stats": {
+        "economy": 25,
+        "military": 53,
+        "stability": 72,
+        "diplomacy": 54
+      },
+      "treasury": 3279,
+      "troops": 32793,
+      "borders": [
+        "SEN",
+        "GIN",
+        "GNB"
+      ],
+      "relations": {}
+    },
+    "TUN": {
+      "id": "TUN",
+      "name": "Tunisia",
+      "continent": "Africa",
+      "owner": "TUN",
+      "population": 11694719,
+      "gdp": 38796,
+      "stats": {
+        "economy": 41,
+        "military": 43,
+        "stability": 75,
+        "diplomacy": 56
+      },
+      "treasury": 4494,
+      "troops": 44941,
+      "borders": [
+        "DZA",
+        "ITA",
+        "LBY"
+      ],
+      "relations": {}
+    },
+    "DZA": {
+      "id": "DZA",
+      "name": "Algeria",
+      "continent": "Africa",
+      "owner": "DZA",
+      "population": 43053054,
+      "gdp": 171091,
+      "stats": {
+        "economy": 49,
+        "military": 52,
+        "stability": 79,
+        "diplomacy": 59
+      },
+      "treasury": 5220,
+      "troops": 52203,
+      "borders": [
+        "ESH",
+        "MLI",
+        "MRT",
+        "NER",
+        "TUN",
+        "PRT",
+        "ESP",
+        "ITA",
+        "MAR",
+        "LBY"
+      ],
+      "relations": {}
+    },
+    "JOR": {
+      "id": "JOR",
+      "name": "Jordan",
+      "continent": "Asia",
+      "owner": "JOR",
+      "population": 10101694,
+      "gdp": 44502,
+      "stats": {
+        "economy": 44,
+        "military": 36,
+        "stability": 55,
+        "diplomacy": 72
+      },
+      "treasury": 4492,
+      "troops": 44917,
+      "borders": [
+        "ISR",
+        "LBN",
+        "PSE",
+        "IRQ",
+        "SYR",
+        "SAU",
+        "EGY"
+      ],
+      "relations": {}
+    },
+    "ARE": {
+      "id": "ARE",
+      "name": "United Arab Emirates",
+      "continent": "Asia",
+      "owner": "ARE",
+      "population": 9770529,
+      "gdp": 421142,
+      "stats": {
+        "economy": 52,
+        "military": 67,
+        "stability": 77,
+        "diplomacy": 66
+      },
+      "treasury": 5069,
+      "troops": 50686,
+      "borders": [
+        "QAT",
+        "OMN",
+        "IRN",
+        "SAU"
+      ],
+      "relations": {}
+    },
+    "QAT": {
+      "id": "QAT",
+      "name": "Qatar",
+      "continent": "Asia",
+      "owner": "QAT",
+      "population": 2832067,
+      "gdp": 175837,
+      "stats": {
+        "economy": 45,
+        "military": 36,
+        "stability": 62,
+        "diplomacy": 73
+      },
+      "treasury": 4518,
+      "troops": 45183,
+      "borders": [
+        "ARE",
+        "OMN",
+        "IRN",
+        "SAU"
+      ],
+      "relations": {}
+    },
+    "KWT": {
+      "id": "KWT",
+      "name": "Kuwait",
+      "continent": "Asia",
+      "owner": "KWT",
+      "population": 4207083,
+      "gdp": 134628,
+      "stats": {
+        "economy": 44,
+        "military": 70,
+        "stability": 60,
+        "diplomacy": 67
+      },
+      "treasury": 4552,
+      "troops": 45519,
+      "borders": [
+        "IRQ",
+        "IRN",
+        "SAU"
+      ],
+      "relations": {}
+    },
+    "IRQ": {
+      "id": "IRQ",
+      "name": "Iraq",
+      "continent": "Asia",
+      "owner": "IRQ",
+      "population": 39309783,
+      "gdp": 234094,
+      "stats": {
+        "economy": 49,
+        "military": 43,
+        "stability": 54,
+        "diplomacy": 67
+      },
+      "treasury": 5278,
+      "troops": 52783,
+      "borders": [
+        "JOR",
+        "KWT",
+        "IRN",
+        "SYR",
+        "TUR",
+        "SAU"
+      ],
+      "relations": {}
+    },
+    "OMN": {
+      "id": "OMN",
+      "name": "Oman",
+      "continent": "Asia",
+      "owner": "OMN",
+      "population": 4974986,
+      "gdp": 76331,
+      "stats": {
+        "economy": 45,
+        "military": 30,
+        "stability": 80,
+        "diplomacy": 55
+      },
+      "treasury": 4448,
+      "troops": 44477,
+      "borders": [
+        "ARE",
+        "QAT",
+        "IRN",
+        "YEM",
+        "SAU"
+      ],
+      "relations": {}
+    },
+    "VUT": {
+      "id": "VUT",
+      "name": "Vanuatu",
+      "continent": "Oceania",
+      "owner": "VUT",
+      "population": 299882,
+      "gdp": 934,
+      "stats": {
+        "economy": 19,
+        "military": 38,
+        "stability": 78,
+        "diplomacy": 67
+      },
+      "treasury": 2568,
+      "troops": 25684,
+      "borders": [],
+      "relations": {}
+    },
+    "KHM": {
+      "id": "KHM",
+      "name": "Cambodia",
+      "continent": "Asia",
+      "owner": "KHM",
+      "population": 16486542,
+      "gdp": 27089,
+      "stats": {
+        "economy": 34,
+        "military": 37,
+        "stability": 55,
+        "diplomacy": 53
+      },
+      "treasury": 4490,
+      "troops": 44900,
+      "borders": [
+        "THA",
+        "LAO",
+        "VNM"
+      ],
+      "relations": {}
+    },
+    "THA": {
+      "id": "THA",
+      "name": "Thailand",
+      "continent": "Asia",
+      "owner": "THA",
+      "population": 69625582,
+      "gdp": 543548,
+      "stats": {
+        "economy": 53,
+        "military": 54,
+        "stability": 80,
+        "diplomacy": 74
+      },
+      "treasury": 5647,
+      "troops": 56468,
+      "borders": [
+        "IDN",
+        "KHM",
+        "LAO",
+        "MMR",
+        "VNM",
+        "IND",
+        "CHN",
+        "MYS"
+      ],
+      "relations": {}
+    },
+    "LAO": {
+      "id": "LAO",
+      "name": "Laos",
+      "continent": "Asia",
+      "owner": "LAO",
+      "population": 7169455,
+      "gdp": 18173,
+      "stats": {
+        "economy": 35,
+        "military": 64,
+        "stability": 79,
+        "diplomacy": 71
+      },
+      "treasury": 4169,
+      "troops": 41689,
+      "borders": [
+        "KHM",
+        "THA",
+        "MMR",
+        "VNM",
+        "CHN"
+      ],
+      "relations": {}
+    },
+    "MMR": {
+      "id": "MMR",
+      "name": "Myanmar",
+      "continent": "Asia",
+      "owner": "MMR",
+      "population": 54045420,
+      "gdp": 76085,
+      "stats": {
+        "economy": 47,
+        "military": 31,
+        "stability": 72,
+        "diplomacy": 55
+      },
+      "treasury": 5068,
+      "troops": 50684,
+      "borders": [
+        "THA",
+        "LAO",
+        "IND",
+        "BGD",
+        "BTN",
+        "CHN"
+      ],
+      "relations": {}
+    },
+    "VNM": {
+      "id": "VNM",
+      "name": "Vietnam",
+      "continent": "Asia",
+      "owner": "VNM",
+      "population": 96462106,
+      "gdp": 261921,
+      "stats": {
+        "economy": 47,
+        "military": 66,
+        "stability": 67,
+        "diplomacy": 58
+      },
+      "treasury": 5542,
+      "troops": 55415,
+      "borders": [
+        "KHM",
+        "THA",
+        "LAO",
+        "CHN"
+      ],
+      "relations": {}
+    },
+    "PRK": {
+      "id": "PRK",
+      "name": "North Korea",
+      "continent": "Asia",
+      "owner": "PRK",
+      "population": 25666161,
+      "gdp": 40000,
+      "stats": {
+        "economy": 36,
+        "military": 68,
+        "stability": 52,
+        "diplomacy": 61
+      },
+      "treasury": 4707,
+      "troops": 47069,
+      "borders": [
+        "RUS",
+        "KOR",
+        "CHN",
+        "JPN"
+      ],
+      "relations": {}
+    },
+    "KOR": {
+      "id": "KOR",
+      "name": "South Korea",
+      "continent": "Asia",
+      "owner": "KOR",
+      "population": 51709098,
+      "gdp": 1646739,
+      "stats": {
+        "economy": 56,
+        "military": 43,
+        "stability": 55,
+        "diplomacy": 59
+      },
+      "treasury": 5858,
+      "troops": 58581,
+      "borders": [
+        "PRK",
+        "CHN",
+        "JPN"
+      ],
+      "relations": {}
+    },
+    "MNG": {
+      "id": "MNG",
+      "name": "Mongolia",
+      "continent": "Asia",
+      "owner": "MNG",
+      "population": 3225167,
+      "gdp": 13996,
+      "stats": {
+        "economy": 39,
+        "military": 64,
+        "stability": 62,
+        "diplomacy": 77
+      },
+      "treasury": 3893,
+      "troops": 38927,
+      "borders": [
+        "KAZ",
+        "RUS",
+        "CHN"
+      ],
+      "relations": {}
+    },
+    "IND": {
+      "id": "IND",
+      "name": "India",
+      "continent": "Asia",
+      "owner": "IND",
+      "population": 1366417754,
+      "gdp": 2868929,
+      "stats": {
+        "economy": 61,
+        "military": 66,
+        "stability": 60,
+        "diplomacy": 65
+      },
+      "treasury": 6856,
+      "troops": 68560,
+      "borders": [
+        "THA",
+        "MMR",
+        "BGD",
+        "BTN",
+        "NPL",
+        "PAK",
+        "AFG",
+        "LKA",
+        "CHN"
+      ],
+      "relations": {}
+    },
+    "BGD": {
+      "id": "BGD",
+      "name": "Bangladesh",
+      "continent": "Asia",
+      "owner": "BGD",
+      "population": 163046161,
+      "gdp": 302571,
+      "stats": {
+        "economy": 53,
+        "military": 32,
+        "stability": 72,
+        "diplomacy": 64
+      },
+      "treasury": 5716,
+      "troops": 57159,
+      "borders": [
+        "MMR",
+        "IND",
+        "BTN",
+        "NPL",
+        "CHN"
+      ],
+      "relations": {}
+    },
+    "BTN": {
+      "id": "BTN",
+      "name": "Bhutan",
+      "continent": "Asia",
+      "owner": "BTN",
+      "population": 763092,
+      "gdp": 2530,
+      "stats": {
+        "economy": 29,
+        "military": 51,
+        "stability": 65,
+        "diplomacy": 72
+      },
+      "treasury": 3071,
+      "troops": 30714,
+      "borders": [
+        "MMR",
+        "IND",
+        "BGD",
+        "NPL",
+        "CHN"
+      ],
+      "relations": {}
+    },
+    "NPL": {
+      "id": "NPL",
+      "name": "Nepal",
+      "continent": "Asia",
+      "owner": "NPL",
+      "population": 28608710,
+      "gdp": 30641,
+      "stats": {
+        "economy": 37,
+        "military": 34,
+        "stability": 59,
+        "diplomacy": 79
+      },
+      "treasury": 4666,
+      "troops": 46657,
+      "borders": [
+        "IND",
+        "BGD",
+        "BTN",
+        "CHN"
+      ],
+      "relations": {}
+    },
+    "PAK": {
+      "id": "PAK",
+      "name": "Pakistan",
+      "continent": "Asia",
+      "owner": "PAK",
+      "population": 216565318,
+      "gdp": 278221,
+      "stats": {
+        "economy": 54,
+        "military": 36,
+        "stability": 57,
+        "diplomacy": 76
+      },
+      "treasury": 5768,
+      "troops": 57680,
+      "borders": [
+        "UZB",
+        "IND",
+        "AFG",
+        "TJK",
+        "TKM",
+        "IRN",
+        "CHN"
+      ],
+      "relations": {}
+    },
+    "AFG": {
+      "id": "AFG",
+      "name": "Afghanistan",
+      "continent": "Asia",
+      "owner": "AFG",
+      "population": 38041754,
+      "gdp": 19291,
+      "stats": {
+        "economy": 35,
+        "military": 44,
+        "stability": 67,
+        "diplomacy": 75
+      },
+      "treasury": 4619,
+      "troops": 46194,
+      "borders": [
+        "UZB",
+        "IND",
+        "PAK",
+        "TJK",
+        "TKM",
+        "IRN",
+        "CHN"
+      ],
+      "relations": {}
+    },
+    "TJK": {
+      "id": "TJK",
+      "name": "Tajikistan",
+      "continent": "Asia",
+      "owner": "TJK",
+      "population": 9321018,
+      "gdp": 8116,
+      "stats": {
+        "economy": 31,
+        "military": 35,
+        "stability": 59,
+        "diplomacy": 64
+      },
+      "treasury": 4027,
+      "troops": 40273,
+      "borders": [
+        "KAZ",
+        "UZB",
+        "RUS",
+        "PAK",
+        "AFG",
+        "KGZ",
+        "CHN"
+      ],
+      "relations": {}
+    },
+    "KGZ": {
+      "id": "KGZ",
+      "name": "Kyrgyzstan",
+      "continent": "Asia",
+      "owner": "KGZ",
+      "population": 6456900,
+      "gdp": 8454,
+      "stats": {
+        "economy": 28,
+        "military": 52,
+        "stability": 75,
+        "diplomacy": 63
+      },
+      "treasury": 3942,
+      "troops": 39423,
+      "borders": [
+        "KAZ",
+        "UZB",
+        "RUS",
+        "TJK",
+        "CHN"
+      ],
+      "relations": {}
+    },
+    "TKM": {
+      "id": "TKM",
+      "name": "Turkmenistan",
+      "continent": "Asia",
+      "owner": "TKM",
+      "population": 5942089,
+      "gdp": 40761,
+      "stats": {
+        "economy": 40,
+        "military": 35,
+        "stability": 76,
+        "diplomacy": 71
+      },
+      "treasury": 4331,
+      "troops": 43305,
+      "borders": [
+        "KAZ",
+        "UZB",
+        "RUS",
+        "PAK",
+        "AFG",
+        "IRN"
+      ],
+      "relations": {}
+    },
+    "IRN": {
+      "id": "IRN",
+      "name": "Iran",
+      "continent": "Asia",
+      "owner": "IRN",
+      "population": 82913906,
+      "gdp": 453996,
+      "stats": {
+        "economy": 52,
+        "military": 33,
+        "stability": 53,
+        "diplomacy": 64
+      },
+      "treasury": 5645,
+      "troops": 56454,
+      "borders": [
+        "UZB",
+        "ARE",
+        "QAT",
+        "KWT",
+        "IRQ",
+        "OMN",
+        "PAK",
+        "AFG",
+        "TKM",
+        "ARM",
+        "TUR",
+        "AZE",
+        "SAU"
+      ],
+      "relations": {}
+    },
+    "SYR": {
+      "id": "SYR",
+      "name": "Syria",
+      "continent": "Asia",
+      "owner": "SYR",
+      "population": 17070135,
+      "gdp": 98830,
+      "stats": {
+        "economy": 42,
+        "military": 61,
+        "stability": 64,
+        "diplomacy": 61
+      },
+      "treasury": 4836,
+      "troops": 48363,
+      "borders": [
+        "ISR",
+        "LBN",
+        "PSE",
+        "JOR",
+        "IRQ",
+        "TUR",
+        "SAU"
+      ],
+      "relations": {}
+    },
+    "ARM": {
+      "id": "ARM",
+      "name": "Armenia",
+      "continent": "Asia",
+      "owner": "ARM",
+      "population": 2957731,
+      "gdp": 13672,
+      "stats": {
+        "economy": 34,
+        "military": 56,
+        "stability": 61,
+        "diplomacy": 75
+      },
+      "treasury": 3864,
+      "troops": 38641,
+      "borders": [
+        "KAZ",
+        "RUS",
+        "IRN",
+        "TUR",
+        "AZE",
+        "GEO"
+      ],
+      "relations": {}
+    },
+    "SWE": {
+      "id": "SWE",
+      "name": "Sweden",
+      "continent": "Europe",
+      "owner": "SWE",
+      "population": 10285453,
+      "gdp": 530883,
+      "stats": {
+        "economy": 51,
+        "military": 69,
+        "stability": 53,
+        "diplomacy": 68
+      },
+      "treasury": 5142,
+      "troops": 51423,
+      "borders": [
+        "RUS",
+        "NOR",
+        "BLR",
+        "POL",
+        "LTU",
+        "LVA",
+        "EST",
+        "DEU",
+        "DNK",
+        "FIN"
+      ],
+      "relations": {}
+    },
+    "BLR": {
+      "id": "BLR",
+      "name": "Belarus",
+      "continent": "Europe",
+      "owner": "BLR",
+      "population": 9466856,
+      "gdp": 63080,
+      "stats": {
+        "economy": 45,
+        "military": 46,
+        "stability": 63,
+        "diplomacy": 71
+      },
+      "treasury": 4566,
+      "troops": 45657,
+      "borders": [
+        "RUS",
+        "SWE",
+        "UKR",
+        "POL",
+        "LTU",
+        "LVA"
+      ],
+      "relations": {}
+    },
+    "UKR": {
+      "id": "UKR",
+      "name": "Ukraine",
+      "continent": "Europe",
+      "owner": "UKR",
+      "population": 44385155,
+      "gdp": 153781,
+      "stats": {
+        "economy": 51,
+        "military": 60,
+        "stability": 59,
+        "diplomacy": 63
+      },
+      "treasury": 5200,
+      "troops": 52005,
+      "borders": [
+        "RUS",
+        "BLR",
+        "POL",
+        "HUN",
+        "MDA",
+        "ROU",
+        "SVK",
+        "SRB"
+      ],
+      "relations": {}
+    },
+    "POL": {
+      "id": "POL",
+      "name": "Poland",
+      "continent": "Europe",
+      "owner": "POL",
+      "population": 37970874,
+      "gdp": 595858,
+      "stats": {
+        "economy": 49,
+        "military": 54,
+        "stability": 52,
+        "diplomacy": 79
+      },
+      "treasury": 5513,
+      "troops": 55128,
+      "borders": [
+        "RUS",
+        "SWE",
+        "BLR",
+        "UKR",
+        "AUT",
+        "HUN",
+        "LTU",
+        "DEU",
+        "SVK",
+        "CZE"
+      ],
+      "relations": {}
+    },
+    "AUT": {
+      "id": "AUT",
+      "name": "Austria",
+      "continent": "Europe",
+      "owner": "AUT",
+      "population": 8877067,
+      "gdp": 445075,
+      "stats": {
+        "economy": 53,
+        "military": 59,
+        "stability": 75,
+        "diplomacy": 66
+      },
+      "treasury": 5058,
+      "troops": 50580,
+      "borders": [
+        "POL",
+        "HUN",
+        "DEU",
+        "HRV",
+        "CHE",
+        "ITA",
+        "SVN",
+        "SVK",
+        "CZE"
+      ],
+      "relations": {}
+    },
+    "HUN": {
+      "id": "HUN",
+      "name": "Hungary",
+      "continent": "Europe",
+      "owner": "HUN",
+      "population": 9769949,
+      "gdp": 163469,
+      "stats": {
+        "economy": 44,
+        "military": 43,
+        "stability": 73,
+        "diplomacy": 60
+      },
+      "treasury": 4822,
+      "troops": 48220,
+      "borders": [
+        "UKR",
+        "POL",
+        "AUT",
+        "ROU",
+        "HRV",
+        "ITA",
+        "SVN",
+        "SVK",
+        "CZE",
+        "BIH",
+        "SRB"
+      ],
+      "relations": {}
+    },
+    "MDA": {
+      "id": "MDA",
+      "name": "Moldova",
+      "continent": "Europe",
+      "owner": "MDA",
+      "population": 2657637,
+      "gdp": 11968,
+      "stats": {
+        "economy": 36,
+        "military": 37,
+        "stability": 51,
+        "diplomacy": 56
+      },
+      "treasury": 3802,
+      "troops": 38015,
+      "borders": [
+        "RUS",
+        "UKR",
+        "ROU"
+      ],
+      "relations": {}
+    },
+    "ROU": {
+      "id": "ROU",
+      "name": "Romania",
+      "continent": "Europe",
+      "owner": "ROU",
+      "population": 19356544,
+      "gdp": 250077,
+      "stats": {
+        "economy": 52,
+        "military": 60,
+        "stability": 58,
+        "diplomacy": 63
+      },
+      "treasury": 5111,
+      "troops": 51109,
+      "borders": [
+        "RUS",
+        "UKR",
+        "HUN",
+        "MDA",
+        "BGR",
+        "SVK",
+        "BIH",
+        "SRB",
+        "MNE",
+        "KOS"
+      ],
+      "relations": {}
+    },
+    "LTU": {
+      "id": "LTU",
+      "name": "Lithuania",
+      "continent": "Europe",
+      "owner": "LTU",
+      "population": 2786844,
+      "gdp": 54627,
+      "stats": {
+        "economy": 43,
+        "military": 63,
+        "stability": 61,
+        "diplomacy": 72
+      },
+      "treasury": 4210,
+      "troops": 42095,
+      "borders": [
+        "RUS",
+        "SWE",
+        "BLR",
+        "POL",
+        "LVA"
+      ],
+      "relations": {}
+    },
+    "LVA": {
+      "id": "LVA",
+      "name": "Latvia",
+      "continent": "Europe",
+      "owner": "LVA",
+      "population": 1912789,
+      "gdp": 34102,
+      "stats": {
+        "economy": 40,
+        "military": 55,
+        "stability": 53,
+        "diplomacy": 59
+      },
+      "treasury": 3989,
+      "troops": 39887,
+      "borders": [
+        "RUS",
+        "NOR",
+        "SWE",
+        "BLR",
+        "LTU",
+        "EST"
+      ],
+      "relations": {}
+    },
+    "EST": {
+      "id": "EST",
+      "name": "Estonia",
+      "continent": "Europe",
+      "owner": "EST",
+      "population": 1326590,
+      "gdp": 31471,
+      "stats": {
+        "economy": 44,
+        "military": 60,
+        "stability": 62,
+        "diplomacy": 66
+      },
+      "treasury": 3872,
+      "troops": 38724,
+      "borders": [
+        "RUS",
+        "NOR",
+        "SWE",
+        "LVA",
+        "FIN"
+      ],
+      "relations": {}
+    },
+    "DEU": {
+      "id": "DEU",
+      "name": "Germany",
+      "continent": "Europe",
+      "owner": "DEU",
+      "population": 83132799,
+      "gdp": 3861123,
+      "stats": {
+        "economy": 63,
+        "military": 43,
+        "stability": 78,
+        "diplomacy": 78
+      },
+      "treasury": 6204,
+      "troops": 62039,
+      "borders": [
+        "FRA",
+        "SWE",
+        "POL",
+        "AUT",
+        "CHE",
+        "LUX",
+        "BEL",
+        "NLD",
+        "ITA",
+        "DNK",
+        "SVN",
+        "CZE"
+      ],
+      "relations": {}
+    },
+    "BGR": {
+      "id": "BGR",
+      "name": "Bulgaria",
+      "continent": "Europe",
+      "owner": "BGR",
+      "population": 6975761,
+      "gdp": 68558,
+      "stats": {
+        "economy": 45,
+        "military": 43,
+        "stability": 59,
+        "diplomacy": 79
+      },
+      "treasury": 4508,
+      "troops": 45078,
+      "borders": [
+        "RUS",
+        "ROU",
+        "GRC",
+        "TUR",
+        "MKD",
+        "SRB",
+        "KOS"
+      ],
+      "relations": {}
+    },
+    "GRC": {
+      "id": "GRC",
+      "name": "Greece",
+      "continent": "Europe",
+      "owner": "GRC",
+      "population": 10716322,
+      "gdp": 209852,
+      "stats": {
+        "economy": 51,
+        "military": 59,
+        "stability": 67,
+        "diplomacy": 77
+      },
+      "treasury": 4911,
+      "troops": 49112,
+      "borders": [
+        "RUS",
+        "BGR",
+        "TUR",
+        "ALB",
+        "MKD",
+        "SRB",
+        "MNE",
+        "KOS"
+      ],
+      "relations": {}
+    },
+    "TUR": {
+      "id": "TUR",
+      "name": "Turkey",
+      "continent": "Asia",
+      "owner": "TUR",
+      "population": 83429615,
+      "gdp": 761425,
+      "stats": {
+        "economy": 56,
+        "military": 58,
+        "stability": 67,
+        "diplomacy": 61
+      },
+      "treasury": 5782,
+      "troops": 57818,
+      "borders": [
+        "RUS",
+        "IRQ",
+        "IRN",
+        "SYR",
+        "ARM",
+        "BGR",
+        "GRC",
+        "AZE",
+        "GEO",
+        "CYN",
+        "CYP"
+      ],
+      "relations": {}
+    },
+    "ALB": {
+      "id": "ALB",
+      "name": "Albania",
+      "continent": "Europe",
+      "owner": "ALB",
+      "population": 2854191,
+      "gdp": 15279,
+      "stats": {
+        "economy": 34,
+        "military": 61,
+        "stability": 65,
+        "diplomacy": 66
+      },
+      "treasury": 3884,
+      "troops": 38837,
+      "borders": [
+        "GRC",
+        "HRV",
+        "BIH",
+        "MKD",
+        "SRB",
+        "MNE",
+        "KOS"
+      ],
+      "relations": {}
+    },
+    "HRV": {
+      "id": "HRV",
+      "name": "Croatia",
+      "continent": "Europe",
+      "owner": "HRV",
+      "population": 4067500,
+      "gdp": 60752,
+      "stats": {
+        "economy": 38,
+        "military": 55,
+        "stability": 67,
+        "diplomacy": 55
+      },
+      "treasury": 4336,
+      "troops": 43357,
+      "borders": [
+        "AUT",
+        "HUN",
+        "ALB",
+        "ITA",
+        "SVN",
+        "BIH",
+        "SRB",
+        "MNE",
+        "KOS"
+      ],
+      "relations": {}
+    },
+    "CHE": {
+      "id": "CHE",
+      "name": "Switzerland",
+      "continent": "Europe",
+      "owner": "CHE",
+      "population": 8574832,
+      "gdp": 703082,
+      "stats": {
+        "economy": 51,
+        "military": 35,
+        "stability": 69,
+        "diplomacy": 56
+      },
+      "treasury": 5168,
+      "troops": 51681,
+      "borders": [
+        "FRA",
+        "AUT",
+        "DEU",
+        "ITA"
+      ],
+      "relations": {}
+    },
+    "LUX": {
+      "id": "LUX",
+      "name": "Luxembourg",
+      "continent": "Europe",
+      "owner": "LUX",
+      "population": 619896,
+      "gdp": 71104,
+      "stats": {
+        "economy": 44,
+        "military": 66,
+        "stability": 69,
+        "diplomacy": 80
+      },
+      "treasury": 3887,
+      "troops": 38865,
+      "borders": [
+        "FRA",
+        "DEU",
+        "BEL",
+        "NLD"
+      ],
+      "relations": {}
+    },
+    "BEL": {
+      "id": "BEL",
+      "name": "Belgium",
+      "continent": "Europe",
+      "owner": "BEL",
+      "population": 11484055,
+      "gdp": 533097,
+      "stats": {
+        "economy": 55,
+        "military": 37,
+        "stability": 73,
+        "diplomacy": 64
+      },
+      "treasury": 5172,
+      "troops": 51721,
+      "borders": [
+        "FRA",
+        "DEU",
+        "LUX",
+        "NLD"
+      ],
+      "relations": {}
+    },
+    "NLD": {
+      "id": "NLD",
+      "name": "Netherlands",
+      "continent": "Europe",
+      "owner": "NLD",
+      "population": 17332850,
+      "gdp": 907050,
+      "stats": {
+        "economy": 54,
+        "military": 35,
+        "stability": 77,
+        "diplomacy": 52
+      },
+      "treasury": 5418,
+      "troops": 54179,
+      "borders": [
+        "FRA",
+        "DEU",
+        "LUX",
+        "BEL"
+      ],
+      "relations": {}
+    },
+    "PRT": {
+      "id": "PRT",
+      "name": "Portugal",
+      "continent": "Europe",
+      "owner": "PRT",
+      "population": 10269417,
+      "gdp": 238785,
+      "stats": {
+        "economy": 45,
+        "military": 61,
+        "stability": 57,
+        "diplomacy": 71
+      },
+      "treasury": 4934,
+      "troops": 49337,
+      "borders": [
+        "DZA",
+        "ESP"
+      ],
+      "relations": {}
+    },
+    "ESP": {
+      "id": "ESP",
+      "name": "Spain",
+      "continent": "Europe",
+      "owner": "ESP",
+      "population": 47076781,
+      "gdp": 1393490,
+      "stats": {
+        "economy": 63,
+        "military": 46,
+        "stability": 70,
+        "diplomacy": 62
+      },
+      "treasury": 5790,
+      "troops": 57901,
+      "borders": [
+        "FRA",
+        "DZA",
+        "PRT",
+        "MAR"
+      ],
+      "relations": {}
+    },
+    "IRL": {
+      "id": "IRL",
+      "name": "Ireland",
+      "continent": "Europe",
+      "owner": "IRL",
+      "population": 4941444,
+      "gdp": 388698,
+      "stats": {
+        "economy": 51,
+        "military": 65,
+        "stability": 72,
+        "diplomacy": 62
+      },
+      "treasury": 4870,
+      "troops": 48701,
+      "borders": [
+        "GBR"
+      ],
+      "relations": {}
+    },
+    "NCL": {
+      "id": "NCL",
+      "name": "New Caledonia",
+      "continent": "Oceania",
+      "owner": "NCL",
+      "population": 287800,
+      "gdp": 10770,
+      "stats": {
+        "economy": 30,
+        "military": 51,
+        "stability": 61,
+        "diplomacy": 51
+      },
+      "treasury": 3195,
+      "troops": 31948,
+      "borders": [],
+      "relations": {}
+    },
+    "SLB": {
+      "id": "SLB",
+      "name": "Solomon Is.",
+      "continent": "Oceania",
+      "owner": "SLB",
+      "population": 669823,
+      "gdp": 1589,
+      "stats": {
+        "economy": 19,
+        "military": 61,
+        "stability": 67,
+        "diplomacy": 76
+      },
+      "treasury": 2916,
+      "troops": 29163,
+      "borders": [
+        "PNG"
+      ],
+      "relations": {}
+    },
+    "NZL": {
+      "id": "NZL",
+      "name": "New Zealand",
+      "continent": "Oceania",
+      "owner": "NZL",
+      "population": 4917000,
+      "gdp": 206928,
+      "stats": {
+        "economy": 48,
+        "military": 38,
+        "stability": 67,
+        "diplomacy": 63
+      },
+      "treasury": 4705,
+      "troops": 47045,
+      "borders": [],
+      "relations": {}
+    },
+    "AUS": {
+      "id": "AUS",
+      "name": "Australia",
+      "continent": "Oceania",
+      "owner": "AUS",
+      "population": 25364307,
+      "gdp": 1396567,
+      "stats": {
+        "economy": 59,
+        "military": 55,
+        "stability": 55,
+        "diplomacy": 65
+      },
+      "treasury": 5630,
+      "troops": 56296,
+      "borders": [
+        "PNG",
+        "IDN"
+      ],
+      "relations": {}
+    },
+    "LKA": {
+      "id": "LKA",
+      "name": "Sri Lanka",
+      "continent": "Asia",
+      "owner": "LKA",
+      "population": 21803000,
+      "gdp": 84008,
+      "stats": {
+        "economy": 44,
+        "military": 58,
+        "stability": 69,
+        "diplomacy": 70
+      },
+      "treasury": 4858,
+      "troops": 48577,
+      "borders": [
+        "IND"
+      ],
+      "relations": {}
+    },
+    "CHN": {
+      "id": "CHN",
+      "name": "China",
+      "continent": "Asia",
+      "owner": "CHN",
+      "population": 1397715000,
+      "gdp": 14342903,
+      "stats": {
+        "economy": 67,
+        "military": 68,
+        "stability": 74,
+        "diplomacy": 66
+      },
+      "treasury": 7281,
+      "troops": 72812,
+      "borders": [
+        "KAZ",
+        "UZB",
+        "RUS",
+        "THA",
+        "LAO",
+        "MMR",
+        "VNM",
+        "PRK",
+        "KOR",
+        "MNG",
+        "IND",
+        "BGD",
+        "BTN",
+        "NPL",
+        "PAK",
+        "AFG",
+        "TJK",
+        "KGZ",
+        "TWN",
+        "JPN"
+      ],
+      "relations": {}
+    },
+    "TWN": {
+      "id": "TWN",
+      "name": "Taiwan",
+      "continent": "Asia",
+      "owner": "TWN",
+      "population": 23568378,
+      "gdp": 1127000,
+      "stats": {
+        "economy": 59,
+        "military": 68,
+        "stability": 58,
+        "diplomacy": 65
+      },
+      "treasury": 5555,
+      "troops": 55546,
+      "borders": [
+        "CHN"
+      ],
+      "relations": {}
+    },
+    "ITA": {
+      "id": "ITA",
+      "name": "Italy",
+      "continent": "Europe",
+      "owner": "ITA",
+      "population": 60297396,
+      "gdp": 2003576,
+      "stats": {
+        "economy": 60,
+        "military": 50,
+        "stability": 69,
+        "diplomacy": 58
+      },
+      "treasury": 5949,
+      "troops": 59493,
+      "borders": [
+        "FRA",
+        "TUN",
+        "DZA",
+        "AUT",
+        "HUN",
+        "DEU",
+        "HRV",
+        "CHE",
+        "SVN",
+        "SVK",
+        "BIH",
+        "SRB",
+        "MNE"
+      ],
+      "relations": {}
+    },
+    "DNK": {
+      "id": "DNK",
+      "name": "Denmark",
+      "continent": "Europe",
+      "owner": "DNK",
+      "population": 5818553,
+      "gdp": 350104,
+      "stats": {
+        "economy": 52,
+        "military": 59,
+        "stability": 53,
+        "diplomacy": 77
+      },
+      "treasury": 4885,
+      "troops": 48854,
+      "borders": [
+        "NOR",
+        "SWE",
+        "DEU"
+      ],
+      "relations": {}
+    },
+    "GBR": {
+      "id": "GBR",
+      "name": "United Kingdom",
+      "continent": "Europe",
+      "owner": "GBR",
+      "population": 66834405,
+      "gdp": 2829108,
+      "stats": {
+        "economy": 62,
+        "military": 34,
+        "stability": 56,
+        "diplomacy": 53
+      },
+      "treasury": 6066,
+      "troops": 60660,
+      "borders": [
+        "FRA",
+        "IRL"
+      ],
+      "relations": {}
+    },
+    "ISL": {
+      "id": "ISL",
+      "name": "Iceland",
+      "continent": "Europe",
+      "owner": "ISL",
+      "population": 361313,
+      "gdp": 24188,
+      "stats": {
+        "economy": 37,
+        "military": 58,
+        "stability": 79,
+        "diplomacy": 66
+      },
+      "treasury": 3465,
+      "troops": 34649,
+      "borders": [
+        "GRL"
+      ],
+      "relations": {}
+    },
+    "AZE": {
+      "id": "AZE",
+      "name": "Azerbaijan",
+      "continent": "Asia",
+      "owner": "AZE",
+      "population": 10023318,
+      "gdp": 48047,
+      "stats": {
+        "economy": 42,
+        "military": 46,
+        "stability": 71,
+        "diplomacy": 72
+      },
+      "treasury": 4510,
+      "troops": 45096,
+      "borders": [
+        "KAZ",
+        "RUS",
+        "IRN",
+        "ARM",
+        "TUR",
+        "GEO"
+      ],
+      "relations": {}
+    },
+    "GEO": {
+      "id": "GEO",
+      "name": "Georgia",
+      "continent": "Asia",
+      "owner": "GEO",
+      "population": 3720382,
+      "gdp": 17477,
+      "stats": {
+        "economy": 36,
+        "military": 41,
+        "stability": 75,
+        "diplomacy": 63
+      },
+      "treasury": 3988,
+      "troops": 39878,
+      "borders": [
+        "KAZ",
+        "RUS",
+        "ARM",
+        "TUR",
+        "AZE"
+      ],
+      "relations": {}
+    },
+    "PHL": {
+      "id": "PHL",
+      "name": "Philippines",
+      "continent": "Asia",
+      "owner": "PHL",
+      "population": 108116615,
+      "gdp": 376795,
+      "stats": {
+        "economy": 56,
+        "military": 67,
+        "stability": 65,
+        "diplomacy": 78
+      },
+      "treasury": 5666,
+      "troops": 56660,
+      "borders": [],
+      "relations": {}
+    },
+    "MYS": {
+      "id": "MYS",
+      "name": "Malaysia",
+      "continent": "Asia",
+      "owner": "MYS",
+      "population": 31949777,
+      "gdp": 364681,
+      "stats": {
+        "economy": 47,
+        "military": 65,
+        "stability": 54,
+        "diplomacy": 79
+      },
+      "treasury": 5340,
+      "troops": 53398,
+      "borders": [
+        "IDN",
+        "THA",
+        "BRN"
+      ],
+      "relations": {}
+    },
+    "BRN": {
+      "id": "BRN",
+      "name": "Brunei",
+      "continent": "Asia",
+      "owner": "BRN",
+      "population": 433285,
+      "gdp": 13469,
+      "stats": {
+        "economy": 38,
+        "military": 66,
+        "stability": 52,
+        "diplomacy": 64
+      },
+      "treasury": 3360,
+      "troops": 33597,
+      "borders": [
+        "IDN",
+        "MYS"
+      ],
+      "relations": {}
+    },
+    "SVN": {
+      "id": "SVN",
+      "name": "Slovenia",
+      "continent": "Europe",
+      "owner": "SVN",
+      "population": 2087946,
+      "gdp": 54174,
+      "stats": {
+        "economy": 39,
+        "military": 69,
+        "stability": 51,
+        "diplomacy": 73
+      },
+      "treasury": 4132,
+      "troops": 41321,
+      "borders": [
+        "AUT",
+        "HUN",
+        "DEU",
+        "HRV",
+        "ITA",
+        "BIH"
+      ],
+      "relations": {}
+    },
+    "FIN": {
+      "id": "FIN",
+      "name": "Finland",
+      "continent": "Europe",
+      "owner": "FIN",
+      "population": 5520314,
+      "gdp": 269296,
+      "stats": {
+        "economy": 47,
+        "military": 40,
+        "stability": 51,
+        "diplomacy": 62
+      },
+      "treasury": 4803,
+      "troops": 48033,
+      "borders": [
+        "RUS",
+        "NOR",
+        "SWE",
+        "EST"
+      ],
+      "relations": {}
+    },
+    "SVK": {
+      "id": "SVK",
+      "name": "Slovakia",
+      "continent": "Europe",
+      "owner": "SVK",
+      "population": 5454073,
+      "gdp": 105079,
+      "stats": {
+        "economy": 42,
+        "military": 58,
+        "stability": 80,
+        "diplomacy": 70
+      },
+      "treasury": 4555,
+      "troops": 45549,
+      "borders": [
+        "UKR",
+        "POL",
+        "AUT",
+        "HUN",
+        "ROU",
+        "ITA",
+        "CZE"
+      ],
+      "relations": {}
+    },
+    "CZE": {
+      "id": "CZE",
+      "name": "Czechia",
+      "continent": "Europe",
+      "owner": "CZE",
+      "population": 10669709,
+      "gdp": 250680,
+      "stats": {
+        "economy": 48,
+        "military": 60,
+        "stability": 71,
+        "diplomacy": 76
+      },
+      "treasury": 4956,
+      "troops": 49564,
+      "borders": [
+        "POL",
+        "AUT",
+        "HUN",
+        "DEU",
+        "SVK"
+      ],
+      "relations": {}
+    },
+    "ERI": {
+      "id": "ERI",
+      "name": "Eritrea",
+      "continent": "Africa",
+      "owner": "ERI",
+      "population": 6081196,
+      "gdp": 2065,
+      "stats": {
+        "economy": 29,
+        "military": 68,
+        "stability": 70,
+        "diplomacy": 80
+      },
+      "treasury": 3559,
+      "troops": 35593,
+      "borders": [
+        "SOM",
+        "SDN",
+        "YEM",
+        "SAU",
+        "ETH",
+        "DJI"
+      ],
+      "relations": {}
+    },
+    "JPN": {
+      "id": "JPN",
+      "name": "Japan",
+      "continent": "Asia",
+      "owner": "JPN",
+      "population": 126264931,
+      "gdp": 5081769,
+      "stats": {
+        "economy": 68,
+        "military": 54,
+        "stability": 69,
+        "diplomacy": 72
+      },
+      "treasury": 6384,
+      "troops": 63844,
+      "borders": [
+        "RUS",
+        "PRK",
+        "KOR",
+        "CHN"
+      ],
+      "relations": {}
+    },
+    "PRY": {
+      "id": "PRY",
+      "name": "Paraguay",
+      "continent": "South America",
+      "owner": "PRY",
+      "population": 7044636,
+      "gdp": 38145,
+      "stats": {
+        "economy": 35,
+        "military": 39,
+        "stability": 70,
+        "diplomacy": 76
+      },
+      "treasury": 4358,
+      "troops": 43576,
+      "borders": [
+        "ARG",
+        "BRA",
+        "BOL"
+      ],
+      "relations": {}
+    },
+    "YEM": {
+      "id": "YEM",
+      "name": "Yemen",
+      "continent": "Asia",
+      "owner": "YEM",
+      "population": 29161922,
+      "gdp": 22581,
+      "stats": {
+        "economy": 35,
+        "military": 33,
+        "stability": 66,
+        "diplomacy": 70
+      },
+      "treasury": 4591,
+      "troops": 45911,
+      "borders": [
+        "SOM",
+        "OMN",
+        "ERI",
+        "SAU",
+        "ETH",
+        "DJI"
+      ],
+      "relations": {}
+    },
+    "SAU": {
+      "id": "SAU",
+      "name": "Saudi Arabia",
+      "continent": "Asia",
+      "owner": "SAU",
+      "population": 34268528,
+      "gdp": 792966,
+      "stats": {
+        "economy": 60,
+        "military": 52,
+        "stability": 53,
+        "diplomacy": 78
+      },
+      "treasury": 5560,
+      "troops": 55605,
+      "borders": [
+        "SDN",
+        "ISR",
+        "PSE",
+        "JOR",
+        "ARE",
+        "QAT",
+        "KWT",
+        "IRQ",
+        "OMN",
+        "IRN",
+        "SYR",
+        "ERI",
+        "YEM",
+        "EGY"
+      ],
+      "relations": {}
+    },
+    "CYN": {
+      "id": "CYN",
+      "name": "N. Cyprus",
+      "continent": "Asia",
+      "owner": "CYN",
+      "population": 326000,
+      "gdp": 3600,
+      "stats": {
+        "economy": 26,
+        "military": 60,
+        "stability": 69,
+        "diplomacy": 52
+      },
+      "treasury": 2942,
+      "troops": 29417,
+      "borders": [
+        "LBN",
+        "TUR",
+        "CYP"
+      ],
+      "relations": {}
+    },
+    "CYP": {
+      "id": "CYP",
+      "name": "Cyprus",
+      "continent": "Asia",
+      "owner": "CYP",
+      "population": 1198575,
+      "gdp": 24948,
+      "stats": {
+        "economy": 36,
+        "military": 67,
+        "stability": 51,
+        "diplomacy": 54
+      },
+      "treasury": 3785,
+      "troops": 37854,
+      "borders": [
+        "TUR",
+        "CYN"
+      ],
+      "relations": {}
+    },
+    "MAR": {
+      "id": "MAR",
+      "name": "Morocco",
+      "continent": "Africa",
+      "owner": "MAR",
+      "population": 36471769,
+      "gdp": 119700,
+      "stats": {
+        "economy": 48,
+        "military": 42,
+        "stability": 50,
+        "diplomacy": 62
+      },
+      "treasury": 5084,
+      "troops": 50840,
+      "borders": [
+        "ESH",
+        "MLI",
+        "MRT",
+        "DZA",
+        "ESP"
+      ],
+      "relations": {}
+    },
+    "EGY": {
+      "id": "EGY",
+      "name": "Egypt",
+      "continent": "Africa",
+      "owner": "EGY",
+      "population": 100388073,
+      "gdp": 303092,
+      "stats": {
+        "economy": 54,
+        "military": 49,
+        "stability": 54,
+        "diplomacy": 79
+      },
+      "treasury": 5590,
+      "troops": 55900,
+      "borders": [
+        "SDN",
+        "ISR",
+        "PSE",
+        "JOR",
+        "SAU",
+        "LBY"
+      ],
+      "relations": {}
+    },
+    "LBY": {
+      "id": "LBY",
+      "name": "Libya",
+      "continent": "Africa",
+      "owner": "LBY",
+      "population": 6777452,
+      "gdp": 52091,
+      "stats": {
+        "economy": 40,
+        "military": 53,
+        "stability": 51,
+        "diplomacy": 57
+      },
+      "treasury": 4429,
+      "troops": 44287,
+      "borders": [
+        "SDN",
+        "TCD",
+        "NER",
+        "TUN",
+        "DZA",
+        "EGY"
+      ],
+      "relations": {}
+    },
+    "ETH": {
+      "id": "ETH",
+      "name": "Ethiopia",
+      "continent": "Africa",
+      "owner": "ETH",
+      "population": 112078730,
+      "gdp": 95912,
+      "stats": {
+        "economy": 49,
+        "military": 49,
+        "stability": 63,
+        "diplomacy": 57
+      },
+      "treasury": 5319,
+      "troops": 53188,
+      "borders": [
+        "SOM",
+        "KEN",
+        "SDN",
+        "ERI",
+        "YEM",
+        "DJI",
+        "SOL",
+        "UGA",
+        "SSD"
+      ],
+      "relations": {}
+    },
+    "DJI": {
+      "id": "DJI",
+      "name": "Djibouti",
+      "continent": "Africa",
+      "owner": "DJI",
+      "population": 973560,
+      "gdp": 3324,
+      "stats": {
+        "economy": 27,
+        "military": 41,
+        "stability": 75,
+        "diplomacy": 57
+      },
+      "treasury": 3206,
+      "troops": 32060,
+      "borders": [
+        "SOM",
+        "ERI",
+        "YEM",
+        "ETH",
+        "SOL"
+      ],
+      "relations": {}
+    },
+    "SOL": {
+      "id": "SOL",
+      "name": "Somaliland",
+      "continent": "Africa",
+      "owner": "SOL",
+      "population": 5096159,
+      "gdp": 17836,
+      "stats": {
+        "economy": 32,
+        "military": 34,
+        "stability": 53,
+        "diplomacy": 70
+      },
+      "treasury": 4075,
+      "troops": 40751,
+      "borders": [
+        "SOM",
+        "ETH",
+        "DJI"
+      ],
+      "relations": {}
+    },
+    "UGA": {
+      "id": "UGA",
+      "name": "Uganda",
+      "continent": "Africa",
+      "owner": "UGA",
+      "population": 44269594,
+      "gdp": 35165,
+      "stats": {
+        "economy": 42,
+        "military": 68,
+        "stability": 73,
+        "diplomacy": 57
+      },
+      "treasury": 4815,
+      "troops": 48153,
+      "borders": [
+        "TZA",
+        "COD",
+        "KEN",
+        "ETH",
+        "RWA",
+        "SSD"
+      ],
+      "relations": {}
+    },
+    "RWA": {
+      "id": "RWA",
+      "name": "Rwanda",
+      "continent": "Africa",
+      "owner": "RWA",
+      "population": 12626950,
+      "gdp": 10354,
+      "stats": {
+        "economy": 37,
+        "military": 48,
+        "stability": 61,
+        "diplomacy": 76
+      },
+      "treasury": 4170,
+      "troops": 41698,
+      "borders": [
+        "TZA",
+        "COD",
+        "BDI",
+        "UGA"
+      ],
+      "relations": {}
+    },
+    "BIH": {
+      "id": "BIH",
+      "name": "Bosnia and Herz.",
+      "continent": "Europe",
+      "owner": "BIH",
+      "population": 3301000,
+      "gdp": 20164,
+      "stats": {
+        "economy": 39,
+        "military": 32,
+        "stability": 78,
+        "diplomacy": 77
+      },
+      "treasury": 3994,
+      "troops": 39939,
+      "borders": [
+        "HUN",
+        "ROU",
+        "ALB",
+        "HRV",
+        "ITA",
+        "SVN",
+        "SRB",
+        "MNE",
+        "KOS"
+      ],
+      "relations": {}
+    },
+    "MKD": {
+      "id": "MKD",
+      "name": "North Macedonia",
+      "continent": "Europe",
+      "owner": "MKD",
+      "population": 2083459,
+      "gdp": 12547,
+      "stats": {
+        "economy": 38,
+        "military": 36,
+        "stability": 71,
+        "diplomacy": 60
+      },
+      "treasury": 3750,
+      "troops": 37504,
+      "borders": [
+        "BGR",
+        "GRC",
+        "ALB",
+        "SRB",
+        "MNE",
+        "KOS"
+      ],
+      "relations": {}
+    },
+    "SRB": {
+      "id": "SRB",
+      "name": "Serbia",
+      "continent": "Europe",
+      "owner": "SRB",
+      "population": 6944975,
+      "gdp": 51475,
+      "stats": {
+        "economy": 38,
+        "military": 56,
+        "stability": 78,
+        "diplomacy": 72
+      },
+      "treasury": 4432,
+      "troops": 44320,
+      "borders": [
+        "UKR",
+        "HUN",
+        "ROU",
+        "BGR",
+        "GRC",
+        "ALB",
+        "HRV",
+        "ITA",
+        "BIH",
+        "MKD",
+        "MNE",
+        "KOS"
+      ],
+      "relations": {}
+    },
+    "MNE": {
+      "id": "MNE",
+      "name": "Montenegro",
+      "continent": "Europe",
+      "owner": "MNE",
+      "population": 622137,
+      "gdp": 5542,
+      "stats": {
+        "economy": 34,
+        "military": 57,
+        "stability": 51,
+        "diplomacy": 75
+      },
+      "treasury": 3223,
+      "troops": 32225,
+      "borders": [
+        "ROU",
+        "GRC",
+        "ALB",
+        "HRV",
+        "ITA",
+        "BIH",
+        "MKD",
+        "SRB",
+        "KOS"
+      ],
+      "relations": {}
+    },
+    "KOS": {
+      "id": "KOS",
+      "name": "Kosovo",
+      "continent": "Europe",
+      "owner": "KOS",
+      "population": 1794248,
+      "gdp": 7926,
+      "stats": {
+        "economy": 28,
+        "military": 47,
+        "stability": 75,
+        "diplomacy": 60
+      },
+      "treasury": 3592,
+      "troops": 35918,
+      "borders": [
+        "ROU",
+        "BGR",
+        "GRC",
+        "ALB",
+        "HRV",
+        "BIH",
+        "MKD",
+        "SRB",
+        "MNE"
+      ],
+      "relations": {}
+    },
+    "TTO": {
+      "id": "TTO",
+      "name": "Trinidad and Tobago",
+      "continent": "North America",
+      "owner": "TTO",
+      "population": 1394973,
+      "gdp": 24269,
+      "stats": {
+        "economy": 38,
+        "military": 54,
+        "stability": 58,
+        "diplomacy": 53
+      },
+      "treasury": 3818,
+      "troops": 38178,
+      "borders": [
+        "VEN"
+      ],
+      "relations": {}
+    },
+    "SSD": {
+      "id": "SSD",
+      "name": "S. Sudan",
+      "continent": "Africa",
+      "owner": "SSD",
+      "population": 11062113,
+      "gdp": 11998,
+      "stats": {
+        "economy": 31,
+        "military": 55,
+        "stability": 66,
+        "diplomacy": 79
+      },
+      "treasury": 4174,
+      "troops": 41738,
+      "borders": [
+        "COD",
+        "KEN",
+        "SDN",
+        "TCD",
+        "CAF",
+        "ETH",
+        "UGA"
+      ],
+      "relations": {}
+    }
+  }
+}

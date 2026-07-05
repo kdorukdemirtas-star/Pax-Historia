@@ -1,0 +1,19 @@
+{
+  "name": "open-historia-local",
+  "version": "1.0.0",
+  "description": "A local, offline-friendly Pax Historia / Open Historia style geopolitical strategy game, powered by a local Ollama model instead of a cloud AI API.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "server": "node server/server.js",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "setup": "npm install && cd client && npm install",
+    "start": "npm run build:client && node server/server.js"
+  },
+  "dependencies": {
+    "@turf/bbox": "^7.3.5",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
