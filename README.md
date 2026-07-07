@@ -27,23 +27,46 @@ Everything runs on your machine: the game server, the client, and the AI (via
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/) 18+
-- [Ollama](https://ollama.com/download) installed and running locally, with a model pulled, e.g.:
+- [Node.js](https://nodejs.org/) 18+ (the launcher scripts below check this for you)
+- [Ollama](https://ollama.com/download) — the local AI runtime. The launcher scripts will tell
+  you if it's missing and pull a default model for you the first time.
+
+## 📥 Download
+
+Either:
+
+- **Clone with git** (recommended, gets updates easily):
+
+  ```bash
+  git clone <this-repo-url>
+  cd Pax-Historia
+  ```
+
+- **Or download a ZIP** from GitHub (Code → Download ZIP) and extract it.
+
+## 🚀 Easiest way to run it
+
+Just run the launcher script for your platform from the project folder — it checks Node.js and
+Ollama, installs dependencies, builds the client, pulls a default AI model if you don't have one
+yet, starts the server, and opens the game in your browser automatically.
+
+- **Windows:** double-click **`Launch Pax Historia.bat`**
+- **macOS:** double-click **`Launch Pax Historia.command`** (first run: right-click → *Open*, since
+  it's an unsigned script)
+- **Linux:** run `./"Launch Pax Historia.sh"` in a terminal
+
+To stop the game, close the terminal window / press `Ctrl+C`. To play again later, just re-run
+the same launcher — it won't reinstall or rebuild unless something is missing.
+
+## Manual setup
+
+If you'd rather do it by hand (or the launcher script doesn't work on your setup):
 
 ```bash
-ollama pull llama3.1
-ollama serve   # usually started automatically by the Ollama app/installer
-```
-
-Any chat-capable Ollama model works — smaller/faster models (e.g. `llama3.2:3b`, `qwen2.5:7b`)
-give quicker turns, larger ones give better roleplay and narration.
-
-## Setup
-
-```bash
-npm run setup     # installs server + client dependencies
-npm run build:client
-npm start          # builds nothing extra, just starts the server on the already-built client
+npm run setup            # installs server + client dependencies
+npm run build:client      # builds the React client
+ollama pull llama3.1      # pull a model, once, if you haven't already
+npm start                 # starts the server on http://localhost:3000
 ```
 
 Then open **http://localhost:3000**.
@@ -53,6 +76,17 @@ For active development (hot-reloading client), run these in two terminals instea
 ```bash
 npm run server       # backend on :3000
 npm run dev:client    # frontend on :5173, proxies /api to :3000
+```
+
+### Choosing an AI model
+
+Any chat-capable Ollama model works — smaller/faster models (e.g. `llama3.2:3b`, `qwen2.5:7b`)
+give quicker turns, larger ones give better roleplay and narration. Change the model at any time
+with:
+
+```bash
+ollama pull <model-name>
+OLLAMA_MODEL=<model-name> npm start
 ```
 
 ## Configuration

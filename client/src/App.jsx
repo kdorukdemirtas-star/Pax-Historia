@@ -63,6 +63,18 @@ export default function App() {
     [sortedCountries, pickerFilter]
   );
 
+  async function handleResetWorld() {
+    if (!window.confirm("Reset the entire world and start a new game? This cannot be undone.")) return;
+    try {
+      await api.resetGame();
+      setSelectedId(null);
+      await refreshGame();
+      setPickerOpen(true);
+    } catch (e) {
+      setError(e.message);
+    }
+  }
+
   async function handleSelectPlayerCountry(id) {
     try {
       await api.selectCountry(id);
@@ -148,7 +160,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="topbar">
-        <div className="brand">🌍 Open Historia <span className="brand-sub">(local, Ollama-powered)</span></div>
+        <div className="brand">🌍 Pax Historia <span className="brand-sub">(local, Ollama-powered)</span></div>
         <div className="topbar-mid">
           {game && (
             <>
@@ -162,6 +174,7 @@ export default function App() {
         <div className="topbar-right">
           <button className="btn" onClick={openAdvisor}>🧭 Advisor</button>
           <button className="btn" onClick={() => setPickerOpen(true)}>Change Nation</button>
+          <button className="btn" onClick={handleResetWorld}>New Game</button>
           <span className={`ollama-pill ${status?.ollama?.ok ? "ok" : "bad"}`}>
             {status?.ollama?.ok ? `Ollama: ${status.ollama.model}` : "Ollama offline"}
           </span>
